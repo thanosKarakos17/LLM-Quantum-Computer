@@ -1,4 +1,4 @@
-# LLM-Quantum-Computer
+# LLM-Quantum-Computer ֎ QAOA-GPT
 
 - This model is designed to serve the purpose of efficient generation of adaptive and regular Quantum Approximate Optimization Algorithm Circuits. This approach leverages Generative Pretrained Transformers (GPT) to directly synthesize quantum circuits for solving quadratic unconstrained binary optimization problems, and demonstrate it on the MaxCut problem on graphs.
 ---
