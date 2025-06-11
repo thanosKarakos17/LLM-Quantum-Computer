@@ -5,7 +5,7 @@
 
 ## Overview
 
-- The simulation framework creates a dataset of graph-circuit samples and graph embeddings. The dataset is tokenized and processed by nanoGpt. After the model is trained we sample a new circuit that corresponds to an input graph. The new circuit is a complete ansatz with already defined operators and parameters that can solve the maxcut problem if the input graph without the need of optimization iterations. Read the report for more details. 
+- The simulation framework creates a dataset of graph-circuit samples and graph embeddings. The dataset is tokenized and processed by nanoGpt. After the model is trained we sample a new circuit that corresponds to an input graph. The new circuit is a complete ansatz with already defined operators and parameters that can solve the maxcut problem if the input graph without the need of optimization iterations. Read the [report](qaoa-gpt-project.pdf) for more details. 
 ---
 
 ## How to Run the Simulation
