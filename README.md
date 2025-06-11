@@ -1,11 +1,11 @@
 # LLM-Quantum-Computer
 
-This model is designed to serve the purpose of efficient generation of adaptive and regular Quantum Approximate Optimization Algorithm Circuits. This approach leverages Generative Pretrained Transformers (GPT) to directly synthesize quantum circuits for solving quadratic unconstrained binary optimization problems, and demonstrate it on the MaxCut problem on graphs.
+- This model is designed to serve the purpose of efficient generation of adaptive and regular Quantum Approximate Optimization Algorithm Circuits. This approach leverages Generative Pretrained Transformers (GPT) to directly synthesize quantum circuits for solving quadratic unconstrained binary optimization problems, and demonstrate it on the MaxCut problem on graphs.
 ---
 
 ## Overview
 
-The simulation framework creates a dataset of graph-circuit samples and graph embeddings. The dataset is tokenized and processed by nanoGpt. After the model is trained we sample a new circuit that corresponds to an input graph. The new circuit is a complete ansatz with already defined operators and parameters that can solve the maxcut problem if the input graph without the need of optimization iterations. Read the report for more details. 
+- The simulation framework creates a dataset of graph-circuit samples and graph embeddings. The dataset is tokenized and processed by nanoGpt. After the model is trained we sample a new circuit that corresponds to an input graph. The new circuit is a complete ansatz with already defined operators and parameters that can solve the maxcut problem if the input graph without the need of optimization iterations. Read the report for more details. 
 ---
 
 ## How to Run the Simulation
